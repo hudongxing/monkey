@@ -1,0 +1,7 @@
+[DEFAULT]
+cmd=monkey -p com.unicocloud.smarthome --throttle 100 --pct-touch 100 --ignore-timeouts --ignore-crashes   --monitor-native-crashes -v -v -v 20000 >
+package_name=com.unicocloud.smarthome
+activity =com.unicocloud.smarthome.activity.login.SplashActivity
+net = wifi
+closedsys=adb shell settings put global policy_control immersive.full=*
+opensys=adb shell settings put global policy_control null

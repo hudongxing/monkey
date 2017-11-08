@@ -1,0 +1,8 @@
+1. 将全部脚本下载至本地任意位置
+2. 电脑安装Python3.X环境
+3. 安装第三方lib库。（安装方法：cmd窗口输入pip install XlsxWriter）
+4. 连接android手机到电脑，并打开调试模式
+5. 双击“run.bat”开始测试。
+6. report.xlsx文件记录性能指标。（功能尚未完善）
+7. log文件夹存放monkey测试log。（包括monkeylog，logcat）
+8. monkey.ini为配置文件，待测app包名，throttle值，种子数量，均在ini文件中进行配置。（默认种子数量200）
